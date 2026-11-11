@@ -44,6 +44,16 @@ Demo outputs: `output/results.json` and `output/orders.csv` (ignored by Git). Th
 
 The original simulator ZIP/source was not recovered; historical results cannot be claimed as reproduced by this repository.
 
+## Latest Development — November 9, 2026
+
+Our separate working project added a **SQLite-backed paper portfolio**, **read-only Jupiter quote probes**, **research-cycle orchestration**, and an **ownership/liquidity audit with fail-closed risk decisions**.
+
+These developments are **documented but their original Python source files have not yet been imported into this public GitHub repository**. The code published here remains a reconstructed offline synthetic simulator, not a live trading system.
+
+The separate market-observation paper ledger recorded **$90.000000 with no approved trades**; a distinct working-project **synthetic-only** ledger recorded **$90.488309**. These are not live returns and must not be combined with other synthetic tests.
+
+Read the [November 9 development report](docs/2026-11-09-development.md) for module status, evidence limitations, recorded results, and a safe source-import checklist.
+
 ## Project contents
 
 - [Simulation engine](simulator/engine.py), [entrypoint](main.py), [unit tests](tests/test_engine.py) and [synthetic sample](examples/synthetic_candles.csv)
